@@ -43,7 +43,7 @@ export const setupServer = (env?: string): Server => {
     },
 
     routes(): void {
-      this.urlPrefix = 'https://diaries-app.surge.sh/';
+      this.urlPrefix = 'https://pedantic-hugle-921219.netlify.app/';
 
       // Auth
       this.post('/auth/login', user.login);
